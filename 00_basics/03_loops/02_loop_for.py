@@ -34,3 +34,17 @@ print("Animales con 's':", animales_con_s)
 pares = [num for num in [1,2,3,4,5,6,7,8,9,10] if num % 2 == 0]
 
 pares = [num for num in range(20) if num % 2 == 0]
+
+persona = {"nombre": "Ana", "edad": 30, "ciudad": "Madrid"}
+
+print("Claves:")
+for k in persona.keys():
+    print(k)
+
+print("\nValores:")
+for v in persona.values():
+    print(v)
+
+print("\nClaves y valores:")
+for k, v in persona.items():
+    print(f"{k}: {v}")
